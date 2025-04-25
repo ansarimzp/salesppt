@@ -1,0 +1,56 @@
+## 📝 Interview Questions & Answers
+
+### 1. **What are the key elements of a dashboard?**  
+- **KPIs** (e.g., Total Sales: $1.08M, Avg Order Value: $218.90).  
+- **Visualizations**: Charts (line, bar, pie), maps, or tables.  
+- **Filters/Slicers** (e.g., Region, Year, Ship Mode).  
+- **Consistent Design**: Color themes, fonts, spacing.  
+- **Interactivity**: Tooltips, drill-downs, linked visuals.  
+
+---
+
+### 2. **What is a KPI?**  
+A **Key Performance Indicator** is a measurable value that shows progress toward business goals.  
+**Example**:  
+- *Total Sales ($1.08M)* reflects overall revenue performance.  
+- *Orders (5K)* indicates transaction volume.  
+
+---
+
+### 3. **What are slicers in Power BI?**  
+Slicers are **interactive filters** that let users segment data dynamically.  
+**Example**:  
+- A *Region slicer* filters the dashboard to show sales in the **West ($325.81K)** or **East ($318.58K)**.  
+- A *Year slicer* isolates trends (e.g., 2015–2018 sales growth).  
+
+---
+
+### 4. **Difference between Power BI and Tableau?**  
+| **Power BI**                          | **Tableau**                          |  
+|----------------------------------------|---------------------------------------|  
+| Cheaper (free version available).      | Expensive for full features.          |  
+| Better for Microsoft ecosystem integration. | Superior for complex visualizations. |  
+| Easier for beginners.                  | Steeper learning curve.               |  
+
+---
+
+### 5. **How do you make a dashboard interactive?**  
+- Add **slicers** (Region, Year, Ship Mode).  
+- Use **drill-through** (click a region to see state-level data).  
+- Enable **tooltips** (hover over a bar to see exact sales).  
+- Cross-filter visuals (select "Technology" to highlight its sales trends).  
+
+---
+
+### 6. **How do you deal with large datasets in dashboards?**  
+- **Aggregate data** (e.g., show monthly instead of daily sales).  
+- Use **DirectQuery** (Power BI) or **Extracts** (Tableau) for performance.  
+- Filter irrelevant data early (e.g., exclude test entries).  
+- Optimize DAX/SQL queries to reduce load times.  
+
+---
+
+### 7. **What chart types do you use for trend analysis?**  
+- **Line charts**: Show sales growth from **2015 ($200K) to 2018 ($400K)**.  
+- **Area charts**: Highlight cumulative trends (e.g., yearly revenue).  
+- **Bar charts**: Compare categories (e.g., Technology vs. Furniture sales).  
